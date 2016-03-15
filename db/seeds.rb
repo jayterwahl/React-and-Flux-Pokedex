@@ -1386,7 +1386,7 @@ ActiveRecord::Base.transaction do
       num = "0#{num}"
     end
 
-    stats["image_url"] = "/assets/pokemon_snaps/#{num}.png"
+    stats["image_url"] = "/assets/images/pokemon_snaps/#{num}.png"
     stats
   end
 
@@ -1395,4 +1395,3 @@ ActiveRecord::Base.transaction do
     3.times { create_random_toy!(pokemon) }
   end
 end
-
