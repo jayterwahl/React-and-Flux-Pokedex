@@ -1,0 +1,11 @@
+var pokemonConstants = {
+
+  POKEMONS_RECEIVED: "POKEMONS_RECEIVED",
+  SINGLE_POKEMON_RECEIVED: "SINGLE_POKEMON_RECEIVED",
+  MAKE_NEW_POKEMON: "MAKE_NEW_POKEMON"
+
+
+
+};
+
+module.exports = pokemonConstants;
